@@ -37,8 +37,8 @@ namespace CardGames
 				if (SwinGame.KeyTyped(KeyCode.vk_LSHIFT) &&
 				SwinGame.KeyTyped(KeyCode.vk_RSHIFT))
 				{
-					SwinGame.LoadSoundEffectNamed ("Error", "error.wav");
-					SwinGame.PlaySoundEffect ("Error");
+					//SwinGame.LoadSoundEffectNamed ("Error", "error.wav");
+					SwinGame.PlaySoundEffect ("error.wav");
 				}
 				else if (SwinGame.KeyTyped(KeyCode.vk_LSHIFT))
 				{
